@@ -2,10 +2,12 @@
   "name": "games-web-app",
   "version": "1.0.0",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node src/server.js"
-    },
+    "start": "node src/server.js",
+    "ai-quiz": "node src/ai/index.js"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
@@ -14,6 +16,8 @@
     "dotenv": "^17.2.0",
     "express": "^5.1.0",
     "express-session": "^1.18.2",
+    "nodemailer": "^7.0.5",
+    "openai": "^5.10.2",
     "passport": "^0.7.0",
     "passport-google-oauth20": "^2.0.0",
     "pg": "^8.16.3"

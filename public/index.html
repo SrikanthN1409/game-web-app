@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <title>Game Hub</title>
+  <style>
+    body { font-family: Arial; background: #f4f4f4; text-align: center; }
+    h1 { color: #333; }
+    .grid { display: flex; flex-wrap: wrap; justify-content: center; gap: 20px; padding: 20px; }
+    .tile {
+      width: 200px; height: 200px; background: #fff; box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      display: flex; align-items: center; justify-content: center; font-size: 1.2em; cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <h1>🎮 Choose a Game</h1>
+  <div class="grid">
+    <div class="tile" onclick="location.href='/auth/google'">🧠 Quiz Game</div>
+    <div class="tile" onclick="location.href='/auth/google'">🧩 Puzzle</div>
+    <div class="tile" onclick="location.href='/auth/google'">🔢 Math Race</div>
+  </div>
+</body>
+</html>
